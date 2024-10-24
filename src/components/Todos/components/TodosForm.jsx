@@ -18,10 +18,10 @@ const TodosForm = () => {
   const onChangeHandler = (e) => {
     // console.log(e.target.value)
     setTodo({ ...todo, [e.target.name]: e.target.value })
-    // console.log(todo)
+    // console.log(todo)    
   }
 
-  const clearForm = e => { 
+  const clearForm = e => {
     e.target.querySelector('#description').value = ''
   }
 
@@ -34,6 +34,7 @@ const TodosForm = () => {
     })
 
     clearForm(e)
+    setTodo({ description: '' })
   }
 
   return (
