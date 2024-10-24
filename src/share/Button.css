@@ -1,0 +1,32 @@
+.button{    
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    color: #14213D;    
+    font-weight: 600;
+}
+
+.close{
+    background-color: #04c568;
+}
+
+.delete{
+    background-color: #d2503f;
+}
+
+.open{
+    background-color: #10a2cb;
+}
+
+.close:hover{
+    background-color: #04c568a1;
+}
+
+.delete:hover{
+    background-color: #d2503f94;
+}
+
+.open:hover{
+    background-color: #10a2cbae;
+}

@@ -1,0 +1,19 @@
+.todos-list {
+    width: 80vw;
+    box-sizing: border-box;    
+    display: flex;    
+    flex-direction: column;
+    gap: 0.5rem;
+    /* background-color: #fff; */
+    /* padding: 1.5rem;
+    border-radius: 0.5rem; */
+    /* align-items: stretch;
+    justify-content: space-between;      */
+}
+
+
+@media screen and (min-width: 600px) {
+    .todos-list{      
+        width: 50vw;     
+    }
+}

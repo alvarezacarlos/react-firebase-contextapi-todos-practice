@@ -1,0 +1,21 @@
+.todo{
+    color: #000;
+    background-color: #eee;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;  
+}
